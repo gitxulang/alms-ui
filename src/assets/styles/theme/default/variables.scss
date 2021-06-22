@@ -1,0 +1,13 @@
+// sidebar
+
+$navbarBg:#201d3e;
+$logoBg:#100e23;
+$stripedBg:#201d3e;
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+
+  navbarBg:$navbarBg;
+  logoBg:$logoBg;
+  stripedBg:$stripedBg;
+}

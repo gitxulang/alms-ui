@@ -1,0 +1,53 @@
+// sidebar
+
+$navbarBg:#1e1f23;
+$logoBg:#100e23;
+$stripedBg:#28292e;
+$bg:#17181c;;
+$sectionBg:#100e23;
+$tableHeadBg:#28292e; 
+$tableBg:#202125;
+$tableHeadText:#a5a6a7;
+$tableText:#a2a2a4;
+$checkBoxBg:#201d3e;
+$tableHoverBg:#c6cfdf;
+$inputBg:#201d3e;
+$inputText:#6d6995;
+$placeholder:#63607d;
+$baseBoxBg:#202125;
+$formBg:#17181c;
+$checkboxborderColor:#999999;
+$select-bg: #17181c;
+$high-light: #4353ff; 
+$bg:#000;
+$tags-color:#202125;
+$tags-bg:#28292e;
+$paginationBg:#45474e;
+$baseHeaderBg:#17181c;
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  checkboxborderColor:$checkboxborderColor;
+  navbarBg:$navbarBg;
+  logoBg:$logoBg;
+  stripedBg:$stripedBg;
+  bg: $bg;
+  sectionBg: $sectionBg;
+  tableHeadBg: $tableHeadBg;
+  tableBg: $tableBg;
+  tableHeadText: $tableHeadText;
+  tableText: $tableText;
+  checkBoxBg:$checkBoxBg;
+  tableHoverBg:$tableHoverBg;
+  inputBg:$inputBg;
+  inputText:$inputText;
+  placeholder:$placeholder;
+  formBg:$formBg;
+  select-bg:$select-bg;
+  high-light:$high-light;
+  bg:$bg;
+  tags-color:$tags-color;
+  paginationBg:$paginationBg;
+  tags-bg:$tags-bg;
+  baseHeaderBg:$baseHeaderBg
+}
